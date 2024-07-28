@@ -14,3 +14,5 @@ FROM
 WHERE 
     TABLE_SCHEMA = DATABASE()  -- Get the current database name
     AND TABLE_NAME = 'Books';
+
+mysql -u your_username -p -e "SOURCE path/to/task_4.sql" alx_book_store
